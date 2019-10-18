@@ -37,7 +37,7 @@ bindkey '^[[3~' delete-char
 bindkey '^[3;5~' delete-char
 
 # Show Screenfetch
-screenfetch
+# screenfetch
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
