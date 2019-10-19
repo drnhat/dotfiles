@@ -6,3 +6,4 @@ File lưu các cấu hình của.
 
 1. zsh
 2. emacs
+3. Homebrew

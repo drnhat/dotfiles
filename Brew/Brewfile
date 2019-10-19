@@ -1,0 +1,46 @@
+# Brewfile
+
+brew "antibody"
+brew "sreenfetch"
+brew "neovim"
+
+
+
+
+# Cask
+# Internet
+cask "firefox"
+cask "google-chrome"
+cask "cyberduck"
+cask "viber"
+cask "netnewswire"
+
+#Tool
+cask "alfred"
+cask "mounty"
+cask "keka"
+cask "appcleaner"
+cask "iterm2"
+cask "marta"
+cask "zotero"
+cask "itsycal"
+cask "latest"
+cask "java"
+
+
+#Media
+cask "iina"
+cask "vlc"
+cask "gimp"
+cask "handbrake"
+
+
+#Bảo mật
+cask "veracrypt"
+
+# Tiếng việt
+cask "openkey"
+
+# Editor
+cask "visual-studio-code"
+cask "typora"
