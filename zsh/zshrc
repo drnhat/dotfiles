@@ -36,8 +36,16 @@ bindkey '^[[B' history-substring-search-down
 bindkey '^[[3~' delete-char
 bindkey '^[3;5~' delete-char
 
+# Đổi sang dùng Neovim
+export VISUAL=nvim
+alias vim="nvim"
+alias lc='colorls -lA --sd'
+
 # Show Screenfetch
 # screenfetch
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh

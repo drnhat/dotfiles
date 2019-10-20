@@ -12,10 +12,15 @@ zsh-users/zsh-autosuggestions
 ## This plugin provides syntax highlighting for the commands we type in the Terminal. In addition, when we’re typing a command, it’ll be highlighted in red if it’s invalid and in green, if it’s valid.
 zdharma/fast-syntax-highlighting
 
+## Auto Color ls by using colorls
+
+gretzky/auto-color-ls
 ## ----- Oh my zsh -----
 
 robbyrussell/oh-my-zsh path:plugins/colored-man-pages
 
 # Theme Pure
-mafredri/zsh-async
-sindresorhus/pure
+# mafredri/zsh-async
+# sindresorhus/pure
+
+romkatv/powerlevel10k

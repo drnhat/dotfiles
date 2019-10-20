@@ -1,9 +1,18 @@
 # Brewfile
+# Tap
+tap "homebrew/cask-fonts"
 
+# Brew
 brew "antibody"
 brew "sreenfetch"
 brew "neovim"
-
+brew "youtube-dl"
+brew "aria2"
+brew "nnn"
+brew "ranger"
+brew "ncdu"
+brew "htop"
+brew "mpv"
 
 
 
@@ -44,3 +53,7 @@ cask "openkey"
 # Editor
 cask "visual-studio-code"
 cask "typora"
+
+# Fonts
+cask "font-hack-nerd-font"
+
