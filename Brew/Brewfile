@@ -12,8 +12,8 @@ brew "nnn"
 brew "ranger"
 brew "ncdu"
 brew "htop"
-brew "mpv"
-
+brew "python3"
+brew "tmux"
 
 
 # Cask
@@ -35,7 +35,7 @@ cask "zotero"
 cask "itsycal"
 cask "latest"
 cask "java"
-
+cask "mpv"
 
 #Media
 cask "iina"
@@ -57,3 +57,11 @@ cask "typora"
 # Fonts
 cask "font-hack-nerd-font"
 
+# Latex
+cask "mactex"
+cask "texmaker"
+cask "lyx"
+
+# R Statictis
+brew "r"
+cask "rstudio"
