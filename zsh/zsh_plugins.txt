@@ -14,13 +14,18 @@ zdharma/fast-syntax-highlighting
 
 ## Auto Color ls by using colorls
 
-gretzky/auto-color-ls
+# gretzky/auto-color-ls
 ## ----- Oh my zsh -----
 
+robbyrussell/oh-my-zsh path:plugins/brew
 robbyrussell/oh-my-zsh path:plugins/colored-man-pages
-
 # Theme Pure
 # mafredri/zsh-async
 # sindresorhus/pure
 
 romkatv/powerlevel10k
+
+# You should user
+MichaelAquilina/zsh-you-should-use
+
+timothyrowan/betterbrew-zsh-plugin

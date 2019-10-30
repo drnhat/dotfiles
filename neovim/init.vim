@@ -10,7 +10,7 @@ set number
 set linebreak
 set colorcolumn=0
 set complete+=s
-
+" set keymap=vietnamese-telex
 
 call plug#begin('~/.local/share/nvim/plugged')
 
@@ -54,4 +54,5 @@ let g:vim_markdown_frontmatter = 1  " for YAML format
 let g:vim_markdown_toml_frontmatter = 1  " for TOML format
 let g:vim_markdown_json_frontmatter = 1  " for JSON format
 
+au BufRead,BufNewFile *.txt set filetype=markdown
 

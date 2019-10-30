@@ -36,10 +36,10 @@ bindkey '^[[B' history-substring-search-down
 bindkey '^[[3~' delete-char
 bindkey '^[3;5~' delete-char
 
-# Đổi sang dùng Neovim
-export VISUAL=nvim
-alias vim="nvim"
-alias lc='colorls -lA --sd'
+# Load biến môi trường
+source ~/.dotfiles/zsh/env.zsh
+# Load các biến
+source ~/.dotfiles/zsh/alias.zsh
 
 # Show Screenfetch
 # screenfetch
