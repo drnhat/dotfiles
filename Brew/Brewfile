@@ -1,5 +1,4 @@
-# Brewfile
-# Tap
+# Brewfile Tap
 tap "homebrew/cask-fonts"
 
 # Brew
@@ -15,6 +14,12 @@ brew "htop"
 brew "python3"
 brew "tmux"
 brew "jrnl"
+brew "mutt"
+brew "exa"
+brew "bat"
+brew "tree"
+brew "fzf"
+
 
 # Cask
 # Internet
@@ -26,6 +31,8 @@ cask "cyberduck"
 cask "viber"
 cask "netnewswire"
 cask "transmission"
+cask "persepolis-download-manager"
+
 #Tool
 cask "alfred"
 cask "mounty"
@@ -39,14 +46,17 @@ cask "latest"
 cask "java"
 cask "mpv"
 cask "knockknock"
+cask "typinator"
+cask "Dozer"
+
 
 #Media
 cask "iina"
 cask "vlc"
 cask "gimp"
 cask "handbrake"
-
-
+cask "openshot"
+cask "qview"
 #Bảo mật
 cask "veracrypt"
 cask "cryptomator"
@@ -56,6 +66,8 @@ cask "openkey"
 # Editor
 cask "visual-studio-code"
 cask "typora"
+cask "nvalt"
+cask "zettlr"
 
 # Fonts
 cask "font-hack-nerd-font"
