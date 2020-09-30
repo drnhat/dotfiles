@@ -6,11 +6,12 @@ set wrap
 set encoding=utf8
 syntax on
 set number
-" set relativenumber (Để hiện thị số theo kiểu liên hệ
+" set relativenumber (Để hiện thị số theo kiểu liên hệ)
 set linebreak
 set colorcolumn=0
 set complete+=s
 " set keymap=vietnamese-telex
+filetype indent plugin on
 
 call plug#begin('~/.local/share/nvim/plugged')
 
